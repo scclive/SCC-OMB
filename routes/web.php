@@ -1,7 +1,7 @@
 <?php
 Route::get('/', function () {
     /* return redirect('/home'); */
-    return view('Index/index');
+    return View::make('Index/index');
 });
     
 
