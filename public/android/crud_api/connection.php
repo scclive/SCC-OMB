@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $user = "ohhmybug_admin";
-$pass = "T$L;~?0+=~2Z";
+$pass = "scc@scc.ohhmybug.com123";
 $db = "ohhmybug_laraquiz";
 
 $con = mysqli_connect($host,$user,$pass, $db);
