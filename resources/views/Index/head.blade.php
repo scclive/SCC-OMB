@@ -127,5 +127,5 @@
       <script src="{{ url('') }}/js/jquery.validate.min.js"></script>
       <script src="{{ url('') }}/js/mail-script.js"></script>
       <script src="{{ url('') }}/js/main.js"></script>
-      
+      @include('partials.javascripts')
       <!-- <link rel="stylesheet" href="css/responsive.css"> -->

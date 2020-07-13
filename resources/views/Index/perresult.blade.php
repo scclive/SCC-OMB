@@ -34,16 +34,16 @@
                     <img style="width:30px;" src="{{  URL::to ('/img/enterprising.png')}}"/> {{$enterprising}}%
                 </div>
                 <div class="col-2 text-center">
-                    <img style="width:30px;" src="{{  URL::to ('/img/Social.png')}}"/> {{$social}}%
+                    <img style="width:30px;" src="{{  URL::to ('/img/social.png')}}"/> {{$social}}%
                 </div>
                 <div class="col-2 text-center">
-                    <img style="width:30px;" src="{{  URL::to ('/img/Artistic.png')}}"/> {{$artistic}}%
+                    <img style="width:30px;" src="{{  URL::to ('/img/artistic.png')}}"/> {{$artistic}}%
                 </div>
                 <div class="col-2 text-center">
-                    <img style="width:30px;" src="{{  URL::to ('/img/Investigative.png')}}"/> {{$investigative}}%
+                    <img style="width:30px;" src="{{  URL::to ('/img/investigative.png')}}"/> {{$investigative}}%
                 </div>
                 <div class="col-2 text-center">
-                    <img style="width:30px;" src="{{  URL::to ('/img/Realistic.png')}}"/> {{$realistic}}%
+                    <img style="width:30px;" src="{{  URL::to ('/img/realistic.png')}}"/> {{$realistic}}%
                 </div>
                 <br><br><br><br><br><br><br><br><br>
             </div>
