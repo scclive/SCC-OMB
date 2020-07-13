@@ -64,7 +64,7 @@
                                                 </ul>
                                             </li> -->
                                             <li><a class="@if(Route::getCurrentRoute()->uri() == 'about') active @endif" href="/about">About Us</a></li>
-                                            <li><a class="@if(Route::getCurrentRoute()->uri() == 'contact') active @endif" href="/contact">Contact</a></li>
+                                            <li><a class="@if(Route::getCurrentRoute()->uri() == 'contact') active @endif" href="/contact">Contact/Feedback</a></li>
 
                                             
                                             @if (!Auth::guest())

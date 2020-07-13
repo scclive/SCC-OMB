@@ -2,12 +2,12 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    @include('Index.head')
+    @include('index.head')
 </head>
 
 <body>
 
-    @include('Index.header')
+    @include('index.header')
 
     <!-- bradcam_area  -->
         <div class="bradcam_area bradcam_bg_1">
@@ -26,18 +26,16 @@
     <!-- ================ contact section start ================= -->
     <section class="contact-section">
             <div class="container">
-                <div class="d-none d-sm-block mb-5 pb-4">
-                    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d53084.476637103224!2d72.729838!3d33.74051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7d882994fc7ddb2!2sGolden%20Square!5e0!3m2!1sen!2sus!4v1583421417788!5m2!1sen!2sus" width="1110" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    
-                </div>
+                
 				
                 <div class="row">
                     <div class="col-12">
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
-                    <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <div class="col-lg-12" >
+                        <button type="button" class="col-lg-3 btn btn-primary report" data-toggle="modal" data-target="#exampleModal" >Feedback</button>
+                        @include('index.suggestion')
+                        <form style="display: none;"class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -64,8 +62,33 @@
                                 <button type="submit" class="button button-contactForm boxed-btn">Send</button>
                             </div>
                         </form>
+
+                        <br>
+                        <br>
+                        <br>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>2nd floor, Golden Square</h3>
+                                <p>New City Phase 2, Wah </p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>+92-51-4950336</h3>
+                                <p>Mon to Fri 11am to 3pm</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <h3>studentCareerConsultant@gmail.com</h3>
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-3 offset-lg-1">
+                    <div class="col-lg-3 offset-lg-1" style="display: none;">
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
@@ -89,11 +112,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-none d-sm-block mb-5 pb-4">
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d53084.476637103224!2d72.729838!3d33.74051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7d882994fc7ddb2!2sGolden%20Square!5e0!3m2!1sen!2sus!4v1583421417788!5m2!1sen!2sus" width="1110" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    
+                </div>
             </div>
         </section>
     <!-- ================ contact section end ================= -->
     
-    @include('Index.footer')
+    @include('index.footer')
     
     <script src="js/main.js"></script>
     <script>
