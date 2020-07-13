@@ -3,13 +3,13 @@
 <html lang="en">
 
   <head>
-    <!-- @include('index.head') -->
+    @include('Index.head')
   </head>
 
   <body>
 
 
-    <!-- @include('index.header') -->
+    @include('Index.header')
       
 
       
@@ -104,7 +104,7 @@
       </div>
       </div>
       <div>
-      <!-- @include('index.suggestion') -->
+      @include('Index.suggestion')
       </div>
     </div>
 
@@ -124,7 +124,7 @@
       
 
 
-        @include('index.footer')
+        @include('Index.footer')
     
       
 
@@ -141,7 +141,7 @@
       
 
 
-        @include('index.footer')
+        @include('Index.footer')
 
 
       <script>
