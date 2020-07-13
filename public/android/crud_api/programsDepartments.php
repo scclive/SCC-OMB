@@ -9,6 +9,7 @@
 	
 	
 	//gets subscribed Dep_ids//
+	mysqli_set_charset($con, 'utf8');
 	$query = mysqli_query($con, "SELECT Dep_id FROM departments");
 	
 	if ( mysqli_num_rows($query) != 0 ) {

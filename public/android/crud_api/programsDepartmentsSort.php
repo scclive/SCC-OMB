@@ -8,6 +8,7 @@
 	
 	$search = "%".$_POST['search']."%";
 	$sort = $_POST['sort'];
+	mysqli_set_charset($con, 'utf8');
 	$query = mysqli_query($con, "SELECT * FROM departments ORDER BY Dep_Name ASC");
 	if($sort == "Name"){
 		$query = mysqli_query($con, "SELECT * FROM departments where Dep_Name LIKE '$search' ORDER BY Dep_Name  ASC");
