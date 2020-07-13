@@ -21,7 +21,7 @@
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-polar.min.js"></script>
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-pareto.min.js"></script>
-    @end
+    @endif
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.2/select2.min.js" defer></script>
 
