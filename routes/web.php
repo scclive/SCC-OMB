@@ -1,7 +1,7 @@
 <?php
 Route::get('/', function () {
     /* return redirect('/home'); */
-    return View::make('Index/index');
+    return view('Index/index');
 });
 Route::get('/clear-cache', function() {
     $exitCode = Artisan::call('cache:clear');
@@ -19,7 +19,6 @@ Route::get('/view-clear', function() {
     $exitCode = Artisan::call('view:clear');
     return 'View cache cleared';
 });
-    
 
 //crawler
 Route::get('Crawler','CrawlerController@index');
