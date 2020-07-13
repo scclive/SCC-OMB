@@ -7,7 +7,7 @@
                   Campuses
             @elseif(\Request::is('DPAll') || \Request::is('DPdetails/*'))
                   Deparmtments
-            @elseif(\Request::is(''))
+            @elseif(\Request::is('/'))
                   Student Career Consultant
             @elseif(\Request::is('about'))
                   About
