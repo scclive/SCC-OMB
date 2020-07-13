@@ -3,6 +3,10 @@ Route::get('/', function () {
     /* return redirect('/home'); */
     return View::make('Index/index');
 });
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    return "Cache is cleared";
+});
     
 
 //crawler
