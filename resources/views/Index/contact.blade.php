@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-lg-12" >
                         <button type="button" class="col-lg-3 btn btn-primary report" data-toggle="modal" data-target="#exampleModal" >Feedback</button>
-                        @include('index.suggestion')
+                        @include('Index.suggestion')
                         <form style="display: none;"class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
