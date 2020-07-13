@@ -112,15 +112,6 @@
       
 
 
-      
-
-    
-      
-
-
-      
-
-
         @include('Index.footer')
 
 

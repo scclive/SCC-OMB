@@ -129,7 +129,6 @@
 	
 
     @include('Index.footer')
-    @include('Index.head')
 
 </body>
 

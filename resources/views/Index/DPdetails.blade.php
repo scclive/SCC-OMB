@@ -81,7 +81,7 @@
           </span>
       @endif
 
-            <table class="table table-striped table-bordered">
+            <table class="sortable table table-striped table-bordered">
           <theadc >
               <tr>
                 

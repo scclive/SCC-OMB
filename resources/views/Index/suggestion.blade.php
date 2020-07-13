@@ -59,7 +59,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Question Reported!
+                    Thank You For Your Feedback!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-lite" data-dismiss="modal">Close</button>
