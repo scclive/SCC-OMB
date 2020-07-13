@@ -52,8 +52,8 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.2/select2.css">
 
-<link rel="shortcut icon" type="image/png" href="/img/notebook.png?r=31241"/>
-<link rel="icon" type="image/png" href="/img/notebook.png?r=31241"/>
+<link rel="shortcut icon" type="image/png" href="/img/notebook.png"/>
+<link rel="icon" type="image/png" href="/img/notebook.png"/>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 <link href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css" rel="stylesheet">
 <meta name="csrf-token" content="{{ csrf_token() }}" />

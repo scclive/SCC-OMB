@@ -2,13 +2,13 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    
+    @include('index.head')
 </head>
 
 <body>
 
 
-    
+    @include('index.header')
     
 
     <!-- slider_area_start -->
@@ -611,7 +611,7 @@
     </div>
     <!-- /Information_area  end -->
 
-    
+    @include('index.footer')
 
 
 </body>
