@@ -7,6 +7,14 @@
                   Campuses
             @elseif(\Request::is('DPAll') || \Request::is('DPdetails/*'))
                   Deparmtments
+            @elseif(\Request::is(''))
+                  Student Career Consultant
+            @elseif(\Request::is('about'))
+                  About
+            @elseif(\Request::is('contact'))
+                  Feedback
+            @elseif(\Request::is('per*'))
+                  Personality Test
             @endif
       </title>
       <meta name="description" content="">
