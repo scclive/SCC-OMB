@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <center><img src="{{URL::to ('/img/campustwo.png')}}"/></center>
+    <center><img src="{{URL::to ('/img/campusTwo.png')}}"/></center>
     <h3 align="center"><img style="width: 30px;" src="{{URL::to ('/img/icons8-circled-menu-64.png')}}"/> | Intermediate</h3><br />
     <h4 align="center">Complete Your Transcript </h4><br />
 

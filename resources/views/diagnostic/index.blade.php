@@ -36,26 +36,26 @@
 
                             <a href="{{  URL::to ('/diagnostic/English')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/English.png"/>
+                                    <img src="../img/english.png"/>
                                     <h1>English</h1>
                                 </div>
                             </a>
                             <a href="{{  URL::to ('/diagnostic/Analytical')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Analytical.png"/>
+                                    <img src="../img/analytical.png"/>
                                     <h1>Analytical</h1>
                                 </div>
                             </a>
                             <a href="{{  URL::to ('/diagnostic/Quantitative')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Quantitative.png"/>
+                                    <img src="../img/quantitative.png"/>
                                     <h1>Quantitative</h1>
                                 </div>
                             </a>
                             <div class="col-md-2 text-center"></div>
                             <a href="{{  URL::to ('/diagnostic/Physics')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Physics.png"/>
+                                    <img src="../img/physics.png"/>
                                     <h1>Physics</h1>
                                 </div>
                             </a>
@@ -68,19 +68,19 @@
                             <div class="col-md-2 text-center"></div>
                             <a href="{{  URL::to ('/diagnostic/Biology')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Biology.png"/>
+                                    <img src="../img/biology.png"/>
                                     <h1>Biology</h1>
                                 </div>
                             </a>
                             <a href="{{  URL::to ('/diagnostic/Computer')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Computer.png"/>
+                                    <img src="../img/computer.png"/>
                                     <h1>Computer</h1>
                                 </div>
                             </a>
                             <a href="{{  URL::to ('/diagnostic/Statistics')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Statistics.png"/>
+                                    <img src="../img/statistics.png"/>
                                     <h1>Statistics</h1>
                                 </div>
                             </a>
@@ -89,13 +89,13 @@
                             <div class="col-md-2 text-center"></div>
                             <a href="{{  URL::to ('/diagnostic/Economics')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Economics.png"/>
+                                    <img src="../img/economics.png"/>
                                     <h1>Economics</h1>
                                 </div>
                             </a>
                             <a href="{{  URL::to ('/diagnostic/Accounting')}}">
                                 <div class="col-md-4 text-center">
-                                    <img src="../img/Accounting.png"/>
+                                    <img src="../img/accounting.png"/>
                                     <h1>Accounting</h1>
                                 </div>
                             </a>
@@ -103,7 +103,7 @@
                             <div class="col-md-3 text-center"></div>
                             <a href="{{  URL::to ('/diagnostic/Commerce')}}">
                                 <div class="col-md-3 text-center">
-                                    <img src="../img/Commerce.png"/>
+                                    <img src="../img/commerce.png"/>
                                     <h1>Commerce</h1>
                                 </div>
                             </a>

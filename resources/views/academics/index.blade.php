@@ -46,7 +46,7 @@
                             </a>
                             <a href="#headingimg">
                                 <div class="col-md-4 text-center hsscButton" data-toggle="tooltip"  data-html="true" data-placement="bottom" title='Equivelent to 12 Years of Education: Intermediate/A-Levels'>
-                                    <img src="../img/campustwo.png"/>
+                                    <img src="../img/campusTwo.png"/>
                                     <h1>HSSC</h1>
                                 </div>
                             </a>

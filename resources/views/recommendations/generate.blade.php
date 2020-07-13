@@ -1258,7 +1258,7 @@
                         <h2>SSC</h2>
                     </div>
                     <div class="col-sm-4">
-                        <img style="width:60px; padding-top:20px;" src="{{  URL::to ('/img/campustwo.png')}}"/>
+                        <img style="width:60px; padding-top:20px;" src="{{  URL::to ('/img/campusTwo.png')}}"/>
                         <h2>HSSC</h2>
                     </div>
                     <div class="col-sm-2">
@@ -1758,7 +1758,7 @@
                                 <br>
                                 <div class="row text-center">
                                     <div class="col-sm-12">
-                                        <img style="height:78.3px;" src="{{  URL::to ('/img/Quantitative.png')}}"/>
+                                        <img style="height:78.3px;" src="{{  URL::to ('/img/quantitative.png')}}"/>
                                     </div>
                                 </div>
 
@@ -1872,7 +1872,7 @@
                                 <br>
                                 <div class="row text-center">
                                     <div class="col-sm-12">
-                                        <img style="height:78.3px;" src="{{  URL::to ('/img/Analytical.png')}}"/>
+                                        <img style="height:78.3px;" src="{{  URL::to ('/img/analytical.png')}}"/>
                                     </div>
                                 </div>
 
