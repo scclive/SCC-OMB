@@ -3,13 +3,13 @@
 <html lang="en">
 
   <head>
-    @include('index.head')
+    <!-- @include('index.head') -->
   </head>
 
   <body>
 
 
-    @include('index.header')
+    <!-- @include('index.header') -->
       
 
       
@@ -104,7 +104,7 @@
       </div>
       </div>
       <div>
-      @include('index.suggestion')
+      <!-- @include('index.suggestion') -->
       </div>
     </div>
 
