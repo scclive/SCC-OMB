@@ -2,14 +2,14 @@
 <html lang="en">
 
   <head>
-    @include('index.head')
+    @include('Index.head')
   </head>
 
   <body>
 
 
     
-    @include('index.header')
+    @include('Index.header')
       
 
       
@@ -115,7 +115,7 @@
     </div>
 
 
-    @include('index.footer')
+    @include('Index.footer')
 
 
 

@@ -2,12 +2,12 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    @include('index.head')
+    @include('Index.head')
 </head>
 
 <body>
 
-    @include('index.header')
+    @include('Index.header')
 
     <!-- bradcam_area  -->
         <div class="bradcam_area bradcam_bg_1">
@@ -93,7 +93,7 @@
         </section>
     <!-- ================ contact section end ================= -->
     
-    @include('index.footer')
+    @include('Index.footer')
     
     <script src="js/main.js"></script>
     <script>

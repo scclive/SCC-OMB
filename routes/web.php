@@ -127,13 +127,13 @@ Route::get('/DPAll','CorelayerController@DPAll');
 Route::get('per/test', 'PersonalityController@pertest');
 Route::post('per/store', 'PersonalityController@perstore');
 Route::get("/per", function(){
-    return View::make("index.perindex");
+    return View::make("Index.perindex");
 });
 Route::get("/about", function(){
-    return View::make("index.about");
+    return View::make("Index.about");
 });
 Route::get("/contact", function(){
-    return View::make("index.contact");
+    return View::make("Index.contact");
 });
 
 // Authentication Routes...

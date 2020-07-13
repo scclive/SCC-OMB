@@ -277,7 +277,7 @@ class PersonalityController extends Controller
             $question->options = QuestionsOption::where('question_id', $question->id)->get();
         }
 
-        return view('index.pertest', compact('questions'));
+        return view('Index.pertest', compact('questions'));
     }
 
     public function store(Request $request)
@@ -603,7 +603,7 @@ class PersonalityController extends Controller
         //     'realistic'     => $realistic,
         // ]);
 
-        return view('index.perresult', compact('result', 'conventional', 'enterprising', 'social', 'artistic', 'investigative', 'realistic'));
+        return view('Index.perresult', compact('result', 'conventional', 'enterprising', 'social', 'artistic', 'investigative', 'realistic'));
     
     }
 }

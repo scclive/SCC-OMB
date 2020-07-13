@@ -2,13 +2,13 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    @include('index.head')
+    @include('Index.head')
 </head>
 
 <body>
 
 
-    @include('index.header')
+    @include('Index.header')
     
 
     <!-- service_area_start -->
@@ -101,7 +101,7 @@
 
 	
 
-    @include('index.footer')
+    @include('Index.footer')
 
 
 </body>

@@ -136,7 +136,7 @@ class CorelayerController extends Controller
 
 
     public function UIdetails(){
-        return view('index.UIdetails');
+        return view('Index.UIdetails');
        
     }
 
@@ -216,7 +216,7 @@ class CorelayerController extends Controller
             return redirect()->back()->with('error', 'REQUESTED DATA NOT FOUND !');
         }else{
             $university = University::find($id);
-            return view('index.CPdetails', ['city'=>$city], compact('university'));
+            return view('Index.CPdetails', ['city'=>$city], compact('university'));
         }
     
          
@@ -229,7 +229,7 @@ class CorelayerController extends Controller
             
         }else{
             $campus = City::find($id);
-            return view('index.DPdetails', ['departments'=>$department], compact('campus'));
+            return view('Index.DPdetails', ['departments'=>$department], compact('campus'));
         }
     }
 
@@ -239,7 +239,7 @@ class CorelayerController extends Controller
         if(count($city)==0){
             return redirect()->back()->with('error', 'REQUESTED DATA NOT FOUND !');
         }else{
-            return view('index.CPAll', ['city'=>$city]);
+            return view('Index.CPAll', ['city'=>$city]);
         }
     }
 
@@ -249,7 +249,7 @@ class CorelayerController extends Controller
             return redirect()->back()->with('error', 'REQUESTED DATA NOT FOUND !');
             
         }else{
-            return view('index.DPAll', ['departments'=>$department]);
+            return view('Index.DPAll', ['departments'=>$department]);
         }
    }
 
