@@ -48,21 +48,7 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a class="@if(Route::getCurrentRoute()->uri() == '/') active @endif" href="{{ url('') }}">home</a></li>
-                                            <!-- <li><a href="#">Services <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about.html">Universities</a></li>
-                                                    <li><a href="about.html">Personality Test</a></li>
-                                                    <li><a href="about.html">Career Diagnostic Test</a></li>
-                                                    <li><a href="about.html">Career Selection Test</a></li>
-                                                    <li><a href="about.html">Your Reports</a></li>
-                                                </ul>
-                                            </li> -->
-                                            <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li> -->
+                                            
                                             <li><a class="@if(Route::getCurrentRoute()->uri() == 'about') active @endif" href="/about">About Us</a></li>
                                             <li><a class="@if(Route::getCurrentRoute()->uri() == 'contact') active @endif" href="/contact">Contact/Feedback</a></li>
 
