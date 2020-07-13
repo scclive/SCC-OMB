@@ -13,7 +13,7 @@
         window._token = '{{ csrf_token() }}';
     </script>
 
-    @if (\Request::is('/'))
+    @if (!\Request::is('/'))
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-base.min.js" type="text/javascript"></script>
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-cartesian.min.js"></script>
