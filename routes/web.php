@@ -7,6 +7,18 @@ Route::get('/clear-cache', function() {
     $exitCode = Artisan::call('cache:clear');
     return "Cache is cleared";
 });
+Route::get('/route-cache', function() {
+    $exitCode = Artisan::call('route:cache');
+    return 'Routes cache cleared';
+});
+Route::get('/config-cache', function() {
+    $exitCode = Artisan::call('config:cache');
+    return 'Config cache cleared';
+});
+Route::get('/view-clear', function() {
+    $exitCode = Artisan::call('view:clear');
+    return 'View cache cleared';
+});
     
 
 //crawler
