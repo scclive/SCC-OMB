@@ -74,19 +74,19 @@ class RecommendationsController extends Controller
             ->get();
             $dataDiagnostic2 = DB::table('tests')
                 ->orderBy('created_at', 'desc')
-                ->where('user_id', '=', Auth::id())
+                ->where('user_id', '=', $id)
                 ->where('subject', 'NOT LIKE', 'NAT-%')
                 ->where('subject', '=', 'English')
                 ->get();
             $dataDiagnostic3 = DB::table('tests')
                 ->orderBy('created_at', 'desc')
-                ->where('user_id', '=', Auth::id())
+                ->where('user_id', '=', $id)
                 ->where('subject', 'NOT LIKE', 'NAT-%')
                 ->where('subject', '=', 'Analytical')
                 ->get();
             $dataDiagnostic4 = DB::table('tests')
                 ->orderBy('created_at', 'desc')
-                ->where('user_id', '=', Auth::id())
+                ->where('user_id', '=', $id)
                 ->where('subject', 'NOT LIKE', 'NAT-%')
                 ->where('subject', '=', 'Quantitative')
                 ->get();
