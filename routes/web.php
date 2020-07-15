@@ -1,8 +1,11 @@
 <?php
-Route::get('/', function () {
-    /* return redirect('/home'); */
-    return  View::make('Index.index');
-});
+// Route::get('/', function () {
+//     /* return redirect('/home'); */
+//     return  View::make('Index.index');
+// });
+Route::get('/','FrontController@front');
+
+
 Route::get('/clear-cache', function() {
     $exitCode = Artisan::call('cache:clear');
     return "Cache is cleared";

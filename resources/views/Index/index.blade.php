@@ -142,6 +142,182 @@
     </div>
     <!-- service_area_end -->
 
+    
+    <!-- counter_area  -->
+    <div class="counter_area" style="display:block;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-2 col-lg-2 col-md-2">
+                    <div class="single_counter text-center">
+                        <div class="counter_icon">
+                            <img src="img/svg_icon/team.png" alt="">
+                        </div>
+                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$users}}</span> <span style="color: #ffd5bc;"> +</span></h3>
+                        <p  style="color: #7ac0ff;">Members</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2">
+                    <div class="single_counter text-center">
+                        <div class="counter_icon">
+                            <img src="img/svg_icon/lightbulb.png" alt="">
+                        </div>
+                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$departments}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
+                        <p  style="color: #7ac0ff;">Programs</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2">
+                    <div class="single_counter text-center">
+                        <div class="counter_icon">
+                            <img src="img/svg_icon/book.png" alt="">
+                        </div>
+                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$subjects}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
+                        <p  style="color: #7ac0ff;">Subjects</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2">
+                    <div class="single_counter text-center">
+                        <div class="counter_icon">
+                            <img src="img/svg_icon/test.png" alt="">
+                        </div>
+                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$quizzes}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
+                        <p  style="color: #7ac0ff;">Tests Taken</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2">
+                    <div class="single_counter text-center">
+                        <div class="counter_icon">
+                            <img src="img/svg_icon/faq.png" alt="">
+                        </div>
+                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$questions}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
+                        <p  style="color: #7ac0ff;">Question Base</p>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-lg-2 col-md-2">
+                    <div class="single_counter text-center">
+                        <div class="counter_icon">
+                            <img src="img/svg_icon/score.png" alt="">
+                        </div>
+                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$average}}</span> <span style="color: #ffd5bc;">%</span> </h3>
+                        <p  style="color: #7ac0ff;">Average Score</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /counter_area  -->
+
+	
+    <!-- case_study_area  -->
+    <div class="case_study_area" style="display:block;">
+        <div class="container">
+            <div class="border_bottom">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title text-center mb-40">
+                            <h3>Get Started</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="md-stepper-horizontal orange">
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>1</span></div>
+                                <div class="md-step-title">Register</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>2</span></div>
+                                <div class="md-step-title">Complete</div>
+                                <div class="md-step-optional">Your Profile</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>3</span></div>
+                                <div class="md-step-title">Complete</div>
+                                <div class="md-step-optional">Your Past Academic Record</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>4</span></div>
+                                <div class="md-step-title">Discover</div>
+                                <div class="md-step-optional">Universities</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                        </div>
+                        <div class="md-stepper-horizontal orange">
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>5</span></div>
+                                <div class="md-step-title">Take</div>
+                                <div class="md-step-optional">Entry Tests</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>6</span></div>
+                                <div class="md-step-title">Test</div>
+                                <div class="md-step-optional">Your Strong Subjects</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>7</span></div>
+                                <div class="md-step-title">Know</div>
+                                <div class="md-step-optional">Your Personality Type</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>8</span></div>
+                                <div class="md-step-title">Know</div>
+                                <div class="md-step-optional">Your Personality Type</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                        </div>
+                        <div class="md-stepper-horizontal orange">
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>9</span></div>
+                                <div class="md-step-title">Track</div>
+                                <div class="md-step-optional">Your Results</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>10</span></div>
+                                <div class="md-step-title">Get Your</div>
+                                <div class="md-step-optional">Report & Suggestions</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>11</span></div>
+                                <div class="md-step-title">Track</div>
+                                <div class="md-step-optional">Institutions Updates & Dates</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                            <div class="col-md-3 md-step active">
+                                <div class="md-step-circle"><span>12</span></div>
+                                <div class="md-step-title">Consult</div>
+                                <div class="md-step-optional">Your counsellor With Your <b>SCC</b> Report</div>
+                                <div class="md-step-bar-left"></div>
+                                <div class="md-step-bar-right"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /case_study_area  -->
+
     @include('Index.footer')
 
 
