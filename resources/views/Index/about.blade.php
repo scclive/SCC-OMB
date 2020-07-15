@@ -178,15 +178,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row text-center"  style="width:60%;margin: 0 auto;">
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single_team">
                                 <div class="team_thumb">
-                                    <img src="img/team/3.png" alt="">
+                                    <img src="img/team/1.png" alt="">
                                 </div>
                                 <div class="team_info text-center">
-                                    <h3>Nouman Ali</h3>
-                                    <p>UI/UX Expert</p>
+                                    <h3>Zohaib Banaras</h3>
+                                    <p>Web Developer</p>
                                     <div class="social_link">
                                         <ul>
                                             <li><a href="#">
@@ -236,11 +236,11 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single_team">
                                 <div class="team_thumb">
-                                    <img src="img/team/1.png" alt="">
+                                    <img src="img/team/3.png" alt="">
                                 </div>
                                 <div class="team_info text-center">
-                                    <h3>Zohaib Banaras</h3>
-                                    <p>Web Developer</p>
+                                    <h3>Nouman Ali</h3>
+                                    <p>UI/UX Expert</p>
                                     <div class="social_link">
                                         <ul>
                                             <li><a href="#">
