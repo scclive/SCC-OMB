@@ -23,7 +23,7 @@
                 </div>
                 <div class="form-group  col-md-3">
                     <label for="">User Email</label> 
-                    <input class="form-control" name="rMessage" value="{{$data->userdetails->email}}" readonly></input> 
+                    <input class="form-control" name="rMessage" value="@if(!empty($data->userdetails)){{$data->userdetails->email}}@else Visitor @endif" readonly></input> 
                 </div>
                 
             </div>
