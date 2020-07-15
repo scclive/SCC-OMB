@@ -62,25 +62,22 @@
 
 
 
-    <center><h3 class="page-title">New Entry Test</h3></center>
-    <center><h4 class="page-title">NAT-{{$subject}}</h4></center>
-    <div style="position: sticky; top: 50px; float:right;">Time Remaining: <span id="time"><b>120:00</b></span> minutes!</div>
+    <center><h4 class="">NAT-{{$subject}}</h4></center>
+    <center><h4 class="">{{$questionCount}} Questions</h4></center>
+    <div style="position: sticky; top: 50px; float:right;"><span id="time" class="btn-info"><b>120:00</b></span></div>
     {!! Form::open(['method' => 'POST', 'url' => ['/APIselection/store']]) !!}
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Answer These {{$questionCount}} Questions; Category: <b>{{$subject}}</b>
-        </div>
         <?php //dd($questions) ?>
     @if(count($questions) > 0)
         <div class="panel-body">
         <?php $i = 1; ?>
         <input name="userid" value="{{$id}}" style="display:none;">
         @foreach($questions as $question)
-            @if ($i > 1) <hr /> @endif
+            @if ($i > 1) @endif
             <div class="row">
                 <div class="col-xs-12 form-group">
                     <div class="form-group questiondiv">
-                        <strong>Question {{ $i }}.<br />{!! nl2br($question->question_text) !!}</strong>
+                            <b style="color: #000000;">Q{{ $i }}</b><br /><b style="color: #912b1f;">{!! nl2br($question->question_text) !!}</b>
 
                         @if ($question->question_image != '')
                             <div class="question_image"><img style="width:auto; height: auto;" src="{{  URL::to ('/images/crop')}}/{!! $question->question_image !!}"/></div>
@@ -98,22 +95,23 @@
 
                             <!-- testing purpose data-whatever="@mdo" -->
                             
-                            <div>
+                            <div style="float: right;">
                                 <p class="Qid" style="display:none;">{{ $question->id }}</p>
                                 <button type="button" class="btn btn-primary report" data-toggle="modal" data-target="#exampleModal" >Report</button>
-                            
                             </div>
 
 
                            <!-- end of this testing section  --> 
                         @foreach($question->options as $option)
                             <br>
-                            <label class="radio-inline">
-                                <input
-                                    type="radio"
-                                    name="answers[{{ $question->id }}]"
-                                    value="{{ $option->id }}">
-                                {{ $option->option }}
+                            <label class="radio-inline" style="border-left: 2px solid #7acaff;">
+                                <div style="padding-left: 5px;">
+                                    <input
+                                        type="radio"
+                                        name="answers[{{ $question->id }}]"
+                                        value="{{ $option->id }}">
+                                    {{ $option->option }}
+                                </div>
                             </label>
                         @endforeach
                     </div>
