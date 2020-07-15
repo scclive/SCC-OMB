@@ -610,7 +610,7 @@ class SelectionController extends Controller
             }
             $questions = $arr;
 
-            echo $questionCount = $questions->count();
+            $questionCount = $questions->count();
             foreach ($questions as &$question) {
                 $question->options = QuestionsOption::where('question_id', $question->id)->inRandomOrder()->get();
             }
@@ -671,7 +671,7 @@ class SelectionController extends Controller
             }
             $questions = $arr;
 
-            echo $questionCount = $questions->count();
+            $questionCount = $questions->count();
             foreach ($questions as &$question) {
                 $question->options = QuestionsOption::where('question_id', $question->id)->inRandomOrder()->get();
             }
@@ -732,7 +732,7 @@ class SelectionController extends Controller
             }
             $questions = $arr;
 
-            echo $questionCount = $questions->count();
+            $questionCount = $questions->count();
             foreach ($questions as &$question) {
                 $question->options = QuestionsOption::where('question_id', $question->id)->inRandomOrder()->get();
             }
@@ -793,7 +793,7 @@ class SelectionController extends Controller
             }
             $questions = $arr;
 
-            echo $questionCount = $questions->count();
+            $questionCount = $questions->count();
             foreach ($questions as &$question) {
                 $question->options = QuestionsOption::where('question_id', $question->id)->inRandomOrder()->get();
             }
