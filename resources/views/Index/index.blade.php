@@ -153,7 +153,7 @@
                         <div class="counter_icon">
                             <img src="img/svg_icon/team.png" alt="">
                         </div>
-                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$users}}</span> <span style="color: #ffd5bc;"> +</span></h3>
+                        <h3> <span class=""  style="color: #ffd5bc ;">{{$users}}</span> <span style="color: #ffd5bc;"> +</span></h3>
                         <p  style="color: #7ac0ff;">Members</p>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                         <div class="counter_icon">
                             <img src="img/svg_icon/book.png" alt="">
                         </div>
-                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$subjects}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
+                        <h3> <span class=""  style="color: #ffd5bc ;">{{$subjects}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
                         <p  style="color: #7ac0ff;">Subjects</p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                         <div class="counter_icon">
                             <img src="img/svg_icon/test.png" alt="">
                         </div>
-                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$quizzes}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
+                        <h3> <span class=""  style="color: #ffd5bc ;">{{$quizzes}}</span> <span style="color: #ffd5bc;"> +</span> </h3>
                         <p  style="color: #7ac0ff;">Tests Taken</p>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
                         <div class="counter_icon">
                             <img src="img/svg_icon/score.png" alt="">
                         </div>
-                        <h3> <span class="counter"  style="color: #ffd5bc ;">{{$average}}</span> <span style="color: #ffd5bc;">%</span> </h3>
+                        <h3> <span class=""  style="color: #ffd5bc ;">{{$average}}</span> <span style="color: #ffd5bc;">%</span> </h3>
                         <p  style="color: #7ac0ff;">Average Score</p>
                     </div>
                 </div>
