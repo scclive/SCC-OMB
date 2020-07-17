@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
-                        <h3>Why our Consulting?</h3>
+                        <h3>Why Us?</h3>
                         <p>We offer the full spectrum of services to help students decide better. Everything from creating standards of excellence to training students to test themselves better, assessing how you’re doing, and helping you perform even better in your future endeavor.</p>
                             <a href="#" class="boxed-btn3">About Us</a>
                     </div>
