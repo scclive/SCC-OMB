@@ -23,6 +23,7 @@ class FrontController extends Controller
         if($averageTotal != 0){
             $average = ($average/$averageTotal)*100;
             $average = round($average, 2);
+            $average = number_format($average, 2);
         }
         $subjects = Topic::count()-1;
         // $universities = University::count();
