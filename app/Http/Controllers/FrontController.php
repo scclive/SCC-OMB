@@ -6,6 +6,7 @@ use App\Question;
 use App\Topic;
 use App\Test;
 use App\User;
+use App\Personality;
 use App\Department;
 use DB;
 
@@ -16,7 +17,7 @@ class FrontController extends Controller
     {
         $questions = Question::count();
         $users = User::count();
-        $quizzes = Test::count();
+        $quizzes = Test::count()+Personality::count();
         $average = Test::avg('result');
         $averageTotal = Test::avg('total');
         if($averageTotal != 0)
