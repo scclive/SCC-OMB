@@ -214,104 +214,128 @@
         <div class="container">
             <div class="border_bottom">
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-md-12">
                         <div class="section_title text-center mb-40">
                             <h3>Get Started</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-4 md-step active">
+
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>1</span></div>
                                 <div class="md-step-title">Register</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>2</span></div>
                                 <div class="md-step-title">Complete</div>
                                 <div class="md-step-optional">Your Profile</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>3</span></div>
                                 <div class="md-step-title">Complete</div>
                                 <div class="md-step-optional">Your Past Academic Record</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
+                            <div class="col-md-1 md-step"></div>
+
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>4</span></div>
                                 <div class="md-step-title">Discover</div>
                                 <div class="md-step-optional">Universities</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>5</span></div>
                                 <div class="md-step-title">Take</div>
                                 <div class="md-step-optional">Entry Tests</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>6</span></div>
                                 <div class="md-step-title">Test</div>
                                 <div class="md-step-optional">Your Strong Subjects</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
+                            <div class="col-md-1 md-step"></div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>7</span></div>
                                 <div class="md-step-title">Know</div>
                                 <div class="md-step-optional">Your Personality Type</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>8</span></div>
                                 <div class="md-step-title">Know</div>
                                 <div class="md-step-optional">Your Personality Type</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>9</span></div>
                                 <div class="md-step-title">Track</div>
                                 <div class="md-step-optional">Your Results</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
+                            <div class="col-md-1 md-step"></div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>10</span></div>
                                 <div class="md-step-title">Get Your</div>
                                 <div class="md-step-optional">Report & Suggestions</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>11</span></div>
                                 <div class="md-step-title">Track</div>
                                 <div class="md-step-optional">Institutions Updates & Dates</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-4 md-step active">
+                            <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>12</span></div>
                                 <div class="md-step-title">Consult</div>
                                 <div class="md-step-optional">Your counsellor With Your <b>SCC</b> Report</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
+                            <div class="col-md-1 md-step"></div>
                         </div>
                     </div>
                 </div>
