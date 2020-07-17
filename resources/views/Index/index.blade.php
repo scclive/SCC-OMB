@@ -214,7 +214,7 @@
         <div class="container">
             <div class="border_bottom">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-xl-12">
                         <div class="section_title text-center mb-40">
                             <h3>Get Started</h3>
                         </div>
@@ -223,7 +223,6 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-
                             <div class="col-md-1">
                             </div>
                             <div class="col-md-3 md-step active">
@@ -246,13 +245,9 @@
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-1 md-step"></div>
-
+                            <div class="col-md-1">
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
                             <div class="col-md-1">
                             </div>
@@ -277,14 +272,12 @@
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-1 md-step"></div>
+                            <div class="col-md-1">
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-1"></div>
+                            <div class="col-md-1">
+                            </div>
                             <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>7</span></div>
                                 <div class="md-step-title">Know</div>
@@ -306,14 +299,12 @@
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-1 md-step"></div>
+                            <div class="col-md-1">
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-1"></div>
+                            <div class="col-md-1">
+                            </div>
                             <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>10</span></div>
                                 <div class="md-step-title">Get Your</div>
@@ -335,7 +326,8 @@
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-1 md-step"></div>
+                            <div class="col-md-1">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -343,6 +335,7 @@
         </div>
     </div>
     <!-- /case_study_area  -->
+
 
     @include('Index.footer')
 
