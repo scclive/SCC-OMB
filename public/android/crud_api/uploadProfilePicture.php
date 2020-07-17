@@ -19,7 +19,7 @@
 		mkdir($path, 0777, true);
 	}
 	$response['pathSQL'] = $pathSQL = $data['uid'].".jpg";
-	$response['finalPath'] = $finalPath = "/wamp64/www/scc-3/public/images/profile_image/".$data['uid'].".jpg";
+	$response['finalPath'] = $finalPath = "/images/profile_image/".$data['uid'].".jpg";
 	$sql = "UPDATE users SET photo = '$pathSQL' WHERE email = '$email'";
 	if (mysqli_query($con, $sql)) {
 		if(file_put_contents($finalPath, base64_decode($photo))){
