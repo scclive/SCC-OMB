@@ -19,7 +19,7 @@ class FrontController extends Controller
         $users = User::count();
         $quizzes = Test::count()+Personality::count();
         $average = Test::avg('result');
-        $average = number_format((float)$average, 2, '.', '');
+        $average = round($average, 2);
         $averageTotal = Test::avg('total');
         if($averageTotal != 0)
             $average = ($average/$averageTotal)*100;
