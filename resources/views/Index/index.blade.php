@@ -40,7 +40,7 @@
                             <h3>Universities</h3>
                             
                             <p style="" >Discover Universities</p>
-                            <a href="/UIdetails" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                             </div>
                             <h3>Career Diagnostic Test</h3>
                             <p>Test Your Interest</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -66,7 +66,7 @@
                             </div>
                             <h3>Career Selection Test</h3>
                             <p>Take Admission Tests</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -79,7 +79,7 @@
                             </div>
                             <h3>Personality Test</h3>
                             <p>Discover Your Personality Type</p>
-                            <a href="/per" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -92,7 +92,7 @@
                             </div>
                             <h3>Your Reports</h3>
                             <p>Track Your Progress & Results</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -105,7 +105,7 @@
                             </div>
                             <h3>Alerts</h3>
                             <p>Find Subscriptions for Your Interests</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -120,7 +120,7 @@
                             </div>
                             <h3>Your Past Records</h3>
                             <p>Record Your Past Performances</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -133,7 +133,7 @@
                             </div>
                             <h3>Choose Your Path</h3>
                             <p>Find Profession that Suits You</p>
-                            <a href="#" class="learn_more">Learn More</a>
+                            Learn More
                         </div>
                     </a>
                 </div>
@@ -221,7 +221,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-md-12">
                         <div class="md-stepper-horizontal orange">
                             <div class="col-md-4 md-step active">
                                 <div class="md-step-circle"><span>1</span></div>
