@@ -14,7 +14,7 @@
 	  $data['uid'] = $row['id'];
 	}
 	$response['uid'] = $data['uid'];
-	$response['path'] = $path = "/wamp64/www/scc-3/public/images/profile_image/";
+	$response['path'] = $path = "/images/profile_image/";
 	if(!file_exists($path)){
 		mkdir($path, 0777, true);
 	}
