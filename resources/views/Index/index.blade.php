@@ -109,8 +109,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2 col-md-3 col-lg-2">
-                </div>
+                <!-- <div class="col-xl-2 col-md-3 col-lg-2">
+                </div> -->
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <a href="/login" class="learn_more">
                         <div class="single_service text-center">
