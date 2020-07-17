@@ -108,7 +108,7 @@ class HomeController extends Controller
         $personalityTest = Personality::count();
         $selectionTest = DB::table('tests')->where('subject', 'LIKE', 'NAT-%')->count();
         $diagnosticTest = DB::table('tests')->where('subject', 'NOT LIKE', 'NAT-%')->count();
-        $quizzes = Test::count();
+        $quizzes = Test::count()+Personality::count();
         $average = Test::avg('result');
         $averageTotal = Test::avg('total');
         if($averageTotal != 0)
