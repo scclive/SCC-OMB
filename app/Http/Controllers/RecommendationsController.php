@@ -127,6 +127,24 @@ class RecommendationsController extends Controller
             ->where('user_id', '=', Auth::id())
             ->where('subject', 'NOT LIKE', 'NAT-%')
             ->get();
+            $dataDiagnostic2 = DB::table('tests')
+                ->orderBy('created_at', 'desc')
+                ->where('user_id', '=', Auth::id())
+                ->where('subject', 'NOT LIKE', 'NAT-%')
+                ->where('subject', '=', 'English')
+                ->get();
+            $dataDiagnostic3 = DB::table('tests')
+                ->orderBy('created_at', 'desc')
+                ->where('user_id', '=', Auth::id())
+                ->where('subject', 'NOT LIKE', 'NAT-%')
+                ->where('subject', '=', 'Analytical')
+                ->get();
+            $dataDiagnostic4 = DB::table('tests')
+                ->orderBy('created_at', 'desc')
+                ->where('user_id', '=', Auth::id())
+                ->where('subject', 'NOT LIKE', 'NAT-%')
+                ->where('subject', '=', 'Quantitative')
+                ->get();
         $dataSelection = DB::table('tests')
             ->orderBy('created_at', 'desc')
             ->where('user_id', '=', Auth::id())
@@ -139,7 +157,8 @@ class RecommendationsController extends Controller
         else $dataAcademic = false;
         if(count($dataPersonality) != 0) $dataPersonality = true;
         else $dataPersonality = false;
-        if(count($dataDiagnostic) != 0) $dataDiagnostic = true;
+        if(count($dataDiagnostic) != 0 && count($dataDiagnostic2) != 0
+            && count($dataDiagnostic3) != 0 && count($dataDiagnostic4) != 0) $dataDiagnostic = true;
         else $dataDiagnostic = false;
         if(count($dataSelection) != 0) $dataSelection = true;
         else $dataSelection = false;
@@ -875,9 +894,27 @@ class RecommendationsController extends Controller
         $dataPersonality = DB::table('personality')->where('user_id', '=', $id)->get();
         $dataDiagnostic = DB::table('tests')
             ->orderBy('created_at', 'desc')
-            ->where('user_id', '=', $id)
+            ->where('user_id', '=', Auth::id())
             ->where('subject', 'NOT LIKE', 'NAT-%')
             ->get();
+            $dataDiagnostic2 = DB::table('tests')
+                ->orderBy('created_at', 'desc')
+                ->where('user_id', '=', Auth::id())
+                ->where('subject', 'NOT LIKE', 'NAT-%')
+                ->where('subject', '=', 'English')
+                ->get();
+            $dataDiagnostic3 = DB::table('tests')
+                ->orderBy('created_at', 'desc')
+                ->where('user_id', '=', Auth::id())
+                ->where('subject', 'NOT LIKE', 'NAT-%')
+                ->where('subject', '=', 'Analytical')
+                ->get();
+            $dataDiagnostic4 = DB::table('tests')
+                ->orderBy('created_at', 'desc')
+                ->where('user_id', '=', Auth::id())
+                ->where('subject', 'NOT LIKE', 'NAT-%')
+                ->where('subject', '=', 'Quantitative')
+                ->get();
         $dataSelection = DB::table('tests')
             ->orderBy('created_at', 'desc')
             ->where('user_id', '=', $id)
@@ -890,7 +927,8 @@ class RecommendationsController extends Controller
         else $dataAcademic = false;
         if(count($dataPersonality) != 0) $dataPersonality = true;
         else $dataPersonality = false;
-        if(count($dataDiagnostic) != 0) $dataDiagnostic = true;
+        if(count($dataDiagnostic) != 0 && count($dataDiagnostic2) != 0
+            && count($dataDiagnostic3) != 0 && count($dataDiagnostic4) != 0) $dataDiagnostic = true;
         else $dataDiagnostic = false;
         if(count($dataSelection) != 0) $dataSelection = true;
         else $dataSelection = false;
