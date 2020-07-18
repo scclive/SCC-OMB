@@ -932,7 +932,7 @@ class RecommendationsController extends Controller
         else $dataDiagnostic = false;
         if(count($dataSelection) != 0) $dataSelection = true;
         else $dataSelection = false;
-        if (!$dataProfile || !$dataAcademic || !$dataPersonality || !$dataDiagnostic || !$dataSelection) return redirect('recommendations');
+        // if (!$dataProfile || !$dataAcademic || !$dataPersonality || !$dataDiagnostic || !$dataSelection) return redirect('recommendations');
 
 
 
