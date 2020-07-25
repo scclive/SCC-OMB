@@ -51,7 +51,7 @@
                     <sup><img style="float:right; width:16px" src="@if($dataDiagnostic) img/check.png @else img/clear.png @endif" alt=""></sup>
                     <img style="margin-right:-16px; width:64px;" src="img/svg_icon/2.png" alt="" > 
                 </div>
-                <h3>Selection Test</h3>
+                <h3>Diagnostic Test</h3>
             </div>
         </div>
         <div class="col-md-2">
@@ -60,7 +60,7 @@
                     <sup><img style="float:right; width:16px" src="@if($dataSelection) img/check.png @else img/clear.png @endif" alt=""></sup>
                     <img style="margin-right:-16px; width:64px;" src="img/svg_icon/3.png" alt="" > 
                 </div>
-                <h3>Diagnostic Test</h3>
+                <h3>Selection Test</h3>
             </div>
         </div>
         <div class="col-md-1"></div>
