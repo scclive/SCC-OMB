@@ -287,15 +287,15 @@
                             </div>
                             <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>8</span></div>
-                                <div class="md-step-title">Know</div>
-                                <div class="md-step-optional">Your Personality Type</div>
+                                <div class="md-step-title">Track</div>
+                                <div class="md-step-optional">Your Results</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
                             <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>9</span></div>
-                                <div class="md-step-title">Track</div>
-                                <div class="md-step-optional">Your Results</div>
+                                <div class="md-step-title">Get Your</div>
+                                <div class="md-step-optional">Report & Suggestions</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
@@ -303,30 +303,23 @@
                             </div>
                         </div>
                         <div class="md-stepper-horizontal orange">
-                            <div class="col-md-1">
+                            <div class="col-md-3">
                             </div>
                             <div class="col-md-3 md-step active">
                                 <div class="md-step-circle"><span>10</span></div>
-                                <div class="md-step-title">Get Your</div>
-                                <div class="md-step-optional">Report & Suggestions</div>
-                                <div class="md-step-bar-left"></div>
-                                <div class="md-step-bar-right"></div>
-                            </div>
-                            <div class="col-md-3 md-step active">
-                                <div class="md-step-circle"><span>11</span></div>
                                 <div class="md-step-title">Track</div>
                                 <div class="md-step-optional">Institutions Updates & Dates</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
                             <div class="col-md-3 md-step active">
-                                <div class="md-step-circle"><span>12</span></div>
+                                <div class="md-step-circle"><span>11</span></div>
                                 <div class="md-step-title">Consult</div>
                                 <div class="md-step-optional">Your counsellor With Your <b>SCC</b> Report</div>
                                 <div class="md-step-bar-left"></div>
                                 <div class="md-step-bar-right"></div>
                             </div>
-                            <div class="col-md-1">
+                            <div class="col-md-3">
                             </div>
                         </div>
                     </div>
