@@ -69,7 +69,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="book_btn d-none d-lg-block">
-                                        <a  href="#">Get Our APP <img src="img/android.png" alt=""> </a>
+                                        <a  href="https://drive.google.com/drive/folders/1yLg3CeNoXsAkD0XtjLwPHbEvtWgl0Ssg?usp=sharing">Get Our APP <img src="img/android.png" alt=""> </a>
                                     </div>
                                 </div>
                             </div>
